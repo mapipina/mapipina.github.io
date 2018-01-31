@@ -1,8 +1,8 @@
-<!--this is the index page for first hw assignment-->
+<!--this is the contact page for first hw assignment-->
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<title>Mapi Portfolio</title>
+	<title>Contact Me - Mapi Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -12,19 +12,27 @@
 		<!--<h1>Mapi Pina</h1>-->
 		<ul>
 			<li><h1>Mapi Pina</h1></li>
-			<li><a href="#">About</a></li>
+			<li><a href="index.html">About</a></li>
 			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="#">Contact</a></li>
 		</ul>
 	</header>
 <!--end nav-->
 	<div class="main-content">
-		<div class="about">
-			<h2>About Me</h2>
-			<p>
-				<img src="assets/images/mapi-resized.png" alt="photo of author"> I was born in the Dominican Republic and emigrated here as a toddler. After graduating from Florida State University I moved to California and started my marketing career working for Disney Interactive. My goal with this program is to earn a higher salary to support my philanthropic goals and provide a stable financial future for my children.
-			</p>
+		<div class="form">
+			<h2>Contact</h2>
+			<form>
+				Name <br><input type="text" name="name" placeholder="John Smith">
+				<br>
+				Email <br><input type="text" name="email" placeholder="example@gmail.com">
+				<br>
+				Message <br><textarea name="message"></textarea>
+				<br>
+				<input style="background-color: #4aaaa5; padding: 5px; width: 25%; color: white; font-weight: bold; border: none;" type="submit" name="Submit">
+				<br>
+			</form>
 		</div>
+
 		<div class="connect">
 			<h3>Connect with Me</h3>
 			<div class="icons">
@@ -33,7 +41,8 @@
 				<a href="https://stackoverflow.com/users/9101621/mapi-pina"><img src="assets/images/if_overflow_334695.png" alt="stackoverflow-logo"></a>
 			</div>
 		</div>
- 	</div>
+	</div>
+
 	<footer>
 		&copy; Copyright 2018 Mapi Pina
 	</footer>
