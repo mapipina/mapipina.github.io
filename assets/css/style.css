@@ -1,8 +1,10 @@
-/*                                    top portion of page                               */
-header {
+/*                                       top portion of page                                   */
+nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	overflow: hidden;
+/*	margin-bottom: 50%; */
 }
 
 ul {
@@ -16,16 +18,21 @@ ul {
 
 li {
 	float: left;
-	margin-top: 0;
+	left: 150px;
+/*	margin-top: 0; */
 }
 
 li a {
     display: block;
     color: #777777;
-    text-align: right;
-    padding: 14px 16px;
+    text-align: center;
+    padding: 5px;
     text-decoration: none;
-    border-right: 1px solid #cccccc;
+}
+
+#web-links {
+	margin-left: 70%;
+	margin-top: 1%;
 }
 
 li a:hover {
@@ -37,12 +44,15 @@ li h1 {
 	background-color: #4aaaa5;
 	padding: 20px;
 	font-family: "Georgia", Times, Times New Roman, serif;
-	display: inline;
-	margin-right: 1000px;
-	margin-left: 20px;
-	bottom: 0;
-}
-/*                                         top portion of page                                        */
+	width: max-content;
+/*	display: block; */
+/*	margin-right: 350%; */
+	margin-left: 20%;
+	height: 100%;
+	font-weight: bold;
+	font-size: 20pt;
+}  
+/*                                         top portion of page                                             */
 
 /*                                    universal properties                                                           */
 h2,
@@ -51,10 +61,12 @@ h3 {
 	font-family: "Georgia", Times, Times New Roman, serif;
 	background-color: #ffffff;
 	border-color: #cccccc;
+	font-weight: bold;
 }
 
 h2 {
-	padding-bottom: 10px;
+	padding-bottom: 1.78%;
+	margin-bottom: 2%;
 	border-bottom: 2px solid #cccccc;
 }
 
@@ -72,9 +84,9 @@ body {
 }
 
 .main-content {
-	margin-top: 7%; 
-	margin-left: 10%; 
-	margin-right: 10%;
+	margin-top: 10%; 
+	margin-left: 5%; 
+	margin-right: 5%;
 	/*padding: 30px 10px 30px 10px;*/
  	overflow: auto; 
 }
@@ -84,32 +96,34 @@ body {
 .portfolio {
 	background-color: #ffffff;
 	border-color: #dddddd;
-	width: 650px;
+/*	width: 650px; */
 	float: left;
 	margin-right: 10%;
+	margin-bottom: 10%;
 /*	margin-top: 15%;
 	margin-left: 10%; */
 }
 
 .connect {
 	background-color: #ffffff;
-	width: 270px;
+	width: 186px;
 	/*margin-top: 10%; */
 	margin-left: 0;
 	float: left;
 	border: 1px solid #cccccc;
-	padding: 20px 20px 20px 20px;
+	padding: 20px;
 }
 
 .connect img {
-	margin: 4px 2px 4px 2px;
-	width: 65px;
-	height: 65px;
+	margin: 5%;
+	width: 40px;
+	height: 40px;
+	float: left;
 } 
 
 .icons {
-	float: left;
-	margin-left: 10%;
+	/*float: left;*/
+/*	margin-left: 10%; */
 }
 
 footer {
@@ -119,7 +133,7 @@ footer {
 	background-color: #666666;
 	border-top: 4px solid #4aaaa5;
 	margin-bottom: 0;
-	padding: 25px;
+	padding: 15px;
 	text-align: center;
 	color: white;
 }
@@ -132,6 +146,7 @@ footer {
 	line-height: 150%;
 	border: 1px solid #cccccc;
 	padding: 20px;
+	width: 566px;
 }
 
 p img {
@@ -147,6 +162,7 @@ p img {
 	line-height: 250%;
 	border: 1px solid #cccccc;
 	padding: 30px;
+	width: 526px;
 }
 
 input {
@@ -162,8 +178,8 @@ textarea {
 
 /*											portfolio page 									*/
 .boxes {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .boxes img {
@@ -173,26 +189,27 @@ textarea {
 }
 
 .portfolio {
-	padding: 30px 30px 30px 30px;
+	padding: 30px;
 	border: 1px solid #cccccc;
-	margin-bottom: 10%;
+	width: 526px;
+/*	margin-bottom: 10%; */
 }
 
 #puppy-text {
 	position: absolute;
-	top: 41%;
-	left: 15.95%;
+	top: 55%;
+	left: 10.30%;
 	background-color: #4aaaa5;
 	color: white;
 	width: 200px;
-/*	padding-left: 65px;
-	padding-right: 65px; */
+	padding-top: 15px;
+	padding-bottom: 15px;
 	text-align: center;
 }
 
 #puppy-text-2 {
 	position: absolute;
-	top: 41%;
+	top: 55%;
 	left: 27.95%;
 	background-color: #4aaaa5;
 	color: white;
@@ -204,8 +221,8 @@ textarea {
 
 #puppy-text-3 {
 	position: absolute;
-	top: 63.50%;
-	left: 15.90%;
+	top: 90%;
+	left: 10.30%;
 	background-color: #4aaaa5;
 	color: white;
 	width: 200px;
@@ -216,7 +233,7 @@ textarea {
 
 #puppy-text-4 {
 	position: absolute;
-	top: 63.50%;
+	top: 90%;
 	left: 27.90%;
 	background-color: #4aaaa5;
 	color: white;
@@ -229,8 +246,8 @@ textarea {
 
 #puppy-text-5 {
 	position: absolute;
-	top: 87.80%;
-	left: 15.90%;
+	top: 128%;
+	left: 10.30%;
 	background-color: #4aaaa5;
 	color: white;
 	width: 200px;
