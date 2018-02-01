@@ -31,27 +31,39 @@ li a {
 }
 
 #web-links {
-	margin-left: 70%;
-	margin-top: 1%;
+	margin-left: 80%;
+	margin-top: 1%; 
 }
 
 li a:hover {
 	background-color: #4aaaa5;
 }
 
-li h1 {
+#name {
 	color: #fff;
-	background-color: #4aaaa5;
-	padding: 20px;
+/*	background-color: #4aaaa5;
+	padding-top: 15px;
+	padding-bottom: 25px; */
 	font-family: "Georgia", Times, Times New Roman, serif;
 	width: max-content;
 /*	display: block; */
 /*	margin-right: 350%; */
-	margin-left: 20%;
-	height: 100%;
+	margin-left: 5%;
+/*	height: 100%; */
 	font-weight: bold;
 	font-size: 20pt;
-}  
+	position: absolute;
+	z-index: 1;
+} 
+
+#name-box {
+	background-color: #4aaaa5;
+	width: 200px;
+	top: 0;
+	left: 14.5%;
+	height: 100px;
+	position: absolute;
+} 
 /*                                         top portion of page                                             */
 
 /*                                    universal properties                                                           */
